@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aman Kumar | Data Analyst Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Aman Kumar — Data Analyst skilled in Excel, SQL, Python & Power BI." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i: 1" class="active">Home</a>
+            <a href="#about" style="--i: 2">About</a>
+            <a href="#services" style="--i: 3">Services</a>
+            <a href="#skills" style="--i: 4">Skills</a>
+            <a href="#portfolio" style="--i: 5">Portfolio</a>
+            <a href="#contact" style="--i: 6">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Available for Freelance</span>
+            </div>
+            <h3 class="hero-greeting">Hello, I'm</h3>
+            <h1 class="hero-name">Aman Kumar</h1>
+            <h3 class="hero-role">And I'm a <span class="text"></span></h3>
+            <p class="hero-description">
+                Turning raw data into actionable insights. Skilled in
+                <strong>Excel</strong>, <strong>SQL</strong>, <strong>Python</strong>
+                &amp; <strong>Power BI</strong> — crafting dashboards and stories
+                that drive decisions.
+            </p>
+            <div class="hero-highlight">
+                <i class='bx bxs-quote-alt-left'></i>
+                <span>I turn data into decisions that grow businesses.</span>
+            </div>
+            <div class="home-sci">
+                <a href="#" style="--i: 7" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" style="--i: 8" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" style="--i: 9" aria-label="WhatsApp"><i class="bx bxl-whatsapp"></i></a>
+                <a href="#" style="--i: 10" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <div class="hero-cta-group">
+                <a href="#contact" class="btn-box btn-primary" id="hero-cta-primary">
+                    <i class='bx bx-conversation'></i> Let's Talk
+                </a>
+                <a href="#" class="btn-box btn-outline" id="hero-cta-secondary">
+                    <i class='bx bx-download'></i> Download CV
+                </a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="hero-img-wrapper">
+                <div class="hero-img-ring"></div>
+                <div class="hero-img-ring hero-img-ring--2"></div>
+                <div class="circle">
+                    <img src="image.png.jpeg" alt="Aman Kumar portrait" />
+                </div>
+                <div class="hero-img-dots"></div>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator" id="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <div class="about-image-card">
+                <img src="image.png.jpeg" alt="Aman Kumar Photo" />
+            </div>
+        </div>
+        <div class="about-content-wrapper">
+            <div class="about-text">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <h4 class="about-subtitle">Data Analyst & Frontend Expert</h4>
+                <p class="about-description">
+                    I am a passionate Data Analyst and Web Designer with a unique blend of analytical thinking and
+                    creative problem-solving. My core focus is transforming complex, raw data into clear, actionable,
+                    and visually compelling insights.
+                </p>
+                <p class="about-description">
+                    By combining deep knowledge of UI/UX principles with robust data tools like SQL, Python, and Power
+                    BI, I build intuitive dashboards and data-driven applications that empower businesses to make
+                    confident decisions.
+                </p>
+
+                <div class="about-stats-grid">
+                    <div class="stat-item">
+                        <h3 class="stat-num">2+</h3>
+                        <p class="stat-text">Years of Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-num">40+</h3>
+                        <p class="stat-text">Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-num">99%</h3>
+                        <p class="stat-text">Client Satisfaction</p>
+                    </div>
+                </div>
+
+                <a href="#projects" class="btn-box btn-primary">View Projects</a>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-title">My <span>Services</span></h2>
+                <p class="section-subtitle">What I can do for your business</p>
+            </div>
+
+            <div class="services-list">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <i class='bx bx-bar-chart-alt-2'></i>
+                    </div>
+                    <h3 class="service-title">Data Visualization</h3>
+                    <p class="service-desc">
+                        Transforming complex datasets into intuitive, interactive dashboards using Power BI and Excel to
+                        empower data-driven decisions.
+                    </p>
+                    <a href="#" class="service-btn">
+                        Learn More <i class='bx bx-right-arrow-alt'></i>
+                    </a>
+                    <div class="service-glow"></div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <i class='bx bx-search-alt-2'></i>
+                    </div>
+                    <h3 class="service-title">Data Analysis</h3>
+                    <p class="service-desc">
+                        Deep-dive analysis using Python and Pandas to uncover hidden trends, patterns, and actionable
+                        insights to drive business growth.
+                    </p>
+                    <a href="#" class="service-btn">
+                        Learn More <i class='bx bx-right-arrow-alt'></i>
+                    </a>
+                    <div class="service-glow"></div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon-wrapper">
+                        <i class='bx bx-data'></i>
+                    </div>
+                    <h3 class="service-title">Database Management</h3>
+                    <p class="service-desc">
+                        Designing robust database schemas, optimizing SQL queries, and ensuring data integrity for
+                        scalable and efficient operations.
+                    </p>
+                    <a href="#" class="service-btn">
+                        Learn More <i class='bx bx-right-arrow-alt'></i>
+                    </a>
+                    <div class="service-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-title">My <span>Skills</span></h2>
+                <p class="section-subtitle">Technical and Professional Expertise</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Technical Skills -->
+                <div class="skills-category">
+                    <h3 class="skills-category-title"><i class='bx bx-code-alt'></i> Technical Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span><i class='bx bxl-html5' style="color: #c95d2e"></i> HTML</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span><i class='bx bxl-css3' style="color: #147bbc"></i> CSS</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span><i class='bx bxl-javascript' style="color: #b0bc1e"></i> JavaScript</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span><i class='bx bxl-python' style="color: #eb0fb4"></i> Python</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span><i class='bx bx-data' style="color: #68d7eb"></i> SQL</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span><i class='bx bxs-objects-vertical-bottom' style="color: #8ee71a"></i> Power
+                                    BI</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span><i class='bx bx-spreadsheet' style="color: #f4073bed"></i> Excel</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Skills -->
+                <div class="skills-category">
+                    <h3 class="skills-category-title"><i class='bx bx-briefcase-alt-2'></i> Professional Skills</h3>
+                    <div class="professional-skills-container">
+                        <div class="pro-skill-item">
+                            <div class="circular-progress" style="--p: 90;">
+                                <div class="inner-circle">90%</div>
+                            </div>
+                            <span class="pro-skill-text">Creativity</span>
+                        </div>
+                        <div class="pro-skill-item">
+                            <div class="circular-progress" style="--p: 65;">
+                                <div class="inner-circle">65%</div>
+                            </div>
+                            <span class="pro-skill-text">Communication</span>
+                        </div>
+                        <div class="pro-skill-item">
+                            <div class="circular-progress" style="--p: 75;">
+                                <div class="inner-circle">75%</div>
+                            </div>
+                            <span class="pro-skill-text">Problem Solving</span>
+                        </div>
+                        <div class="pro-skill-item">
+                            <div class="circular-progress" style="--p: 85;">
+                                <div class="inner-circle">85%</div>
+                            </div>
+                            <span class="pro-skill-text">Teamwork</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <h2>Latest <span>Project</span></h2>
+            <div class="portfolio-content">
+                <div class="row">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+                        alt="Customer Churn Dashboard">
+                    <div class="layer">
+                        <h5>Customer Churn Analysis</h5>
+                        <p>Analyzed 50k+ transaction records using Python & SQL to predict churn. Built a Power BI
+                            dashboard identifying key drivers, recommending strategies that improved retention by 15%.
+                        </p>
+                        <a href="#"><i class='bx bx-link-external' style="color: aliceblue;"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
+                        alt="Sales Data Deep Dive">
+                    <div class="layer">
+                        <h5>Global Sales Performance Deep Dive</h5>
+                        <p>Conducted comprehensive time-series analysis of global sales. Engineered features in SQL and
+                            visualized revenue trends to uncover regional bottlenecks and optimize growth.</p>
+                        <a href="#"><i class='bx bx-link-external' style="color: aliceblue;"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&q=80&w=800"
+                        alt="Supply Chain Tracker">
+                    <div class="layer">
+                        <h5>Supply Chain Optimization Dashboard</h5>
+                        <p>Developed a real-time operational efficiency tracker. Consolidated multi-source market data
+                            via APIs to identify bottlenecks, improving workflow decision-making by 22%.</p>
+                        <a href="#"><i class='bx bx-link-external' style="color: aliceblue;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-title">Contact <span>Me</span></h2>
+                <p class="section-subtitle">Let's work together on your next data project</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info-card">
+                    <h3 class="contact-heading">Get In Touch</h3>
+                    <p class="contact-description">
+                        I am currently available for freelance projects and full-time opportunities. If you have a
+                        data-driven project or need an analytical mind to uncover hidden insights, feel free to reach
+                        out to me!
+                    </p>
+
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <div class="icon-box"><i class='bx bxs-envelope'></i></div>
+                            <div class="info-details">
+                                <span class="info-title">Email Me</span>
+                                <span class="info-value">aman73930556@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-box"><i class='bx bxs-phone'></i></div>
+                            <div class="info-details">
+                                <span class="info-title">Call Me</span>
+                                <span class="info-value">+91 7355786077</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-box"><i class='bx bxs-map'></i></div>
+                            <div class="info-details">
+                                <span class="info-title">Location</span>
+                                <span class="info-value">New Delhi, India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-socials">
+                        <h4 class="social-title">Follow Me</h4>
+                        <div class="contact-icons">
+                            <a href="#" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                            <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                            <a href="#" aria-label="Github"><i class='bx bxl-github'></i></a>
+                            <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-card">
+                    <form class="contact-form" action="https://formspree.io/f/xyklknqv" method="POST">
+                        <div class="form-group-half">
+                            <div class="input-box">
+                                <input type="text" name="name" placeholder="Full Name" required>
+                            </div>
+                            <div class="input-box">
+                                <input type="email" name="email" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                        <div class="form-group-half">
+                            <div class="input-box">
+                                <input type="tel" name="phone" placeholder="Phone Number" required>
+                                <span class="required-mark">*</span>
+                            </div>
+                            <div class="input-box">
+                                <input type="text" name="subject" placeholder="Subject / Project Topic" required>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            <textarea name="message" id="" cols="30" rows="8"
+                                placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn" aria-label="Send Message">
+                            Send Message <i class='bx bxs-paper-plane'></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Aman Kumar. All Rights Reserved.</p>
+            <p class="footer-tagline">Turning Data Into Decisions.</p>
+        </div>
+        <a href="#home" class="top" aria-label="Back to Top"><i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
