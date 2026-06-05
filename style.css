@@ -517,6 +517,7 @@ body {
   inset: -18px;
   border-radius: 50%;
   border: 1px solid rgba(var(--accent-rgb), 0.15);
+  animation: spinRing 20s linear infinite;
 }
 .hero-img-ring::before {
   content: "";
@@ -533,6 +534,7 @@ body {
 .hero-img-ring--2 {
   inset: -36px;
   border-color: rgba(var(--accent-alt-rgb), 0.1);
+  animation: spinRing 25s linear infinite reverse;
 }
 .hero-img-ring--2::before {
   background: var(--accent-alt);
